@@ -15,7 +15,8 @@ namespace Lemon
         /// </summary>
         [STAThread]
         static void Main()
-        {              
+        {
+            //Some random Change here for testing idk.
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new main());
