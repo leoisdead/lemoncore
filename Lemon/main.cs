@@ -29,9 +29,11 @@ namespace Lemon
             Program.textabout.ShowDialog();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private async Task button1_Click(object sender, EventArgs e)
         {
-            LemonCore.Libs.math.lerp(0,100,0.5f);
+           float Result = LemonCore.Libs.math.lerp(0,100,0.5f);
+           button1.Text = Result.ToString();
+           
         }
     }
 }
