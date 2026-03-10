@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Lemon
@@ -9,7 +6,7 @@ namespace Lemon
     static class Program
     {
         public static About about;
-        //public static LemonText textabout;
+        public static LemonCore.Libs.image _img = new LemonCore.Libs.image();
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
