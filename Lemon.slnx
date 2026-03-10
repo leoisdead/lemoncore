@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Lemon/Lemon.csproj" Id="40f953fc-7f17-4031-ab71-4dee09d8789b" />
+  <Project Path="LemonCore/LemonCore.csproj" Id="e1aba38c-bca4-4608-bb33-965e3a821351" />
+</Solution>
