@@ -23,12 +23,6 @@ namespace Lemon
             Program.about.ShowDialog();
         }
 
-        private void Open_About_text(object sender, EventArgs e)
-        {
-            Program.textabout = new LemonText();
-            Program.textabout.ShowDialog();
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             if (button1.Text == "Test Lerp")
