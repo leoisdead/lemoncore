@@ -9,7 +9,7 @@ namespace Lemon
     static class Program
     {
         public static About about;
-        public static LemonText textabout;
+        //public static LemonText textabout;
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
