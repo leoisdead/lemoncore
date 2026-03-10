@@ -15,7 +15,7 @@ namespace Lemon
         {
             InitializeComponent();
             this.Text = "About Lemon Core";  //String.Format("About {0}", "Core");
-            this.labelProductName.Text = "Core";
+            this.labelProductName.Text = "Module: Core";
             this.labelVersion.Text = "Version: v" + LemonCore.LemonCoreResources.Version + " " + LemonCore.LemonCoreResources.enviroment;
             this.labelCopyright.Text = "Copyright: " + AssemblyCopyright;
             this.labelCompanyName.Text = "Company: " + AssemblyCompany;
