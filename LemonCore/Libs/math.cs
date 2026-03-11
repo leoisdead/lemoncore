@@ -1,4 +1,5 @@
-﻿namespace LemonCore.Libs
+﻿//MATHHHHHH! idk you can just do 1+1 but this is here plus lerp!!
+namespace LemonCore.Libs
 {
     public class math
     {
